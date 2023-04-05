@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/fon1.jpg);
+  background-size: 100%;
+  font-family: cursive;
+}
+
+ul {
+  text-align: right;
+
+}
+
+li{
+  background: #000066;
+  width: 9%;
+  height: 40px;
+  line-height: 40px;
+  transition: 1s;
+  display: inline-block;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 0 10px #000;
+  position: relative;
+
+}
+
+ul ul {
+  position: absolute;
+  top: -10000px;
+}
+
+li:hover {
+  background: #CC0033;
+  transition: 1s;
+}
+
+li:hover ul {
+  top: 40px;
+  transition: 1s;
+}
+
+ li ul li{
+  width: 120px;
+  display: block;
+border-radius: 20px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  background: rgba(255,2555,255,.9);
+  margin: 50px auto;
+  padding: 50px;
+  width: 90%;
+  box-shadow: 0 0 10px #000;
+  border-radius: 20px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 0 0 7px #000;
+  font-size: 50px;
+  text-align: left;
+  float: left;
+  margin: 2%;
+}
+.logo {
+   float: left;
+   margin-left: 50px;
+}
+h2 {
+  color: red;
+}
+
+footer {
+  height: 40px;
+  line-height: 40px;
+  background: #000066;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 200px 200px 0 0;
+  width: 100%;
+  box-shadow: 0 0 10px #000;
+}
+
+#tab2, #tab3, #tab4, #tab5, #tab6 {
+  position: fixed;
+}
+.menu1 a {
+  text-decoration: none;
+  color: #ffc;
+  background: #CC0033;
+  padding: 10px;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 20px;
+   box-shadow: 0 0 10px #000;
+}
+
+#tab2,
+#tab3,
+#tab4,
+#tab5,
+#tab6,
+#tab7,
+.menu1 .div,
+.menu1 #tab7:target ~ div:nth-of-type(1),
+.menu1 #tab6:target ~ div:nth-of-type(1),
+.menu1 #tab5:target ~ div:nth-of-type(1),
+.menu1 #tab4:target ~ div:nth-of-type(1),
+.menu1 #tab2:target ~ div:nth-of-type(1),
+.menu1 #tab3:target ~ div:nth-of-type(1) {
+  display: none;
+  padding: 25px;
+  margin: 5px 0;
+}
+
+.menu1  .div:nth-of-type(1),
+.menu1 #tab7:target ~ div:nth-of-type(7),
+.menu1 #tab6:target ~ div:nth-of-type(6),
+.menu1 #tab5:target ~ div:nth-of-type(5),
+.menu1 #tab4:target ~ div:nth-of-type(4),
+.menu1 #tab2:target ~ div:nth-of-type(2),
+.menu1 #tab3:target ~ div:nth-of-type(3) {
+  display: block;
+}
+
+.menu1 a:hover  {
+  background: #000066;
+}
+
+
+#gallery{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gallery .photos figure{
+    display: none;
+}
+
+#gallery .photos figure:first-child{
+    display: block;
+}
+
+figure img{
+  width: 200px;
+  box-shadow: 0 0 10px;
+  border: 7px solid #fff;
+  border-radius: 20px;
+  margin-bottom: 10px;
+
+}
+
+figcaption {
+  font-size: 30px;
+}
+
+.buttons input {
+  background: #000066;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  transition: 1s;
+  box-shadow: 0 0 10px #000;
+}
+
+.vb {
+  background: #000066;
+  color: #fff;
+  padding: 15px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  transition: 1s;
+  box-shadow: 0 0 10px #000;
+}
+
+.buttons input:hover {
+  background: #CC0033;
+  transition: 1s;
+
+}
+
+h4 {
+  display: inline-block;
+  border-radius: 20px;
+ border:2px solid #000066;
+ padding: 10px;
+ background: rgba(255,255,255,.8);
+ box-shadow: 0 0 10px #000;
+ cursor: move;
+ margin: 1%;
+}
+
+.img img {
+  border-radius: 20px;
+
+  height: 250px;
+
+}
+
+input {
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.vv {
+  margin: 20px 0;
+}
+
+.v div {
+  color: transparent;
+  height: 200px;
+  line-height: 200px;
+  width: 200px;
+  border:7px solid #ff box-shadow: 0 0 10px #000;f;
+  transition: 1s;
+  box-shadow: 0 0 10px #000;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 1%;
+}
+
+#vv1 {
+  background: url(../img/v_1.png) no-repeat;
+}
+
+#vv2 {
+  background: url(../img/v_2.png) no-repeat;
+}
+
+#vv3 {
+  background: url(../img/v_3.png) no-repeat;
+}
+
+#vv4 {
+  background: url(../img/v_4.png) no-repeat;
+}
+
+#vv5 {
+  background: url(../img/v_5.png) no-repeat;
+}
+
+#vv6 {
+  background: url(../img/v_6.png) no-repeat;
+}
+
+#vv7 {
+  background: url(../img/v_7.png) no-repeat;
+}
+
+#vv8 {
+  background: url(../img/v_8.png) no-repeat;
+}
+
+#vv9 {
+  background: url(../img/v_9.png) no-repeat;
+}
+
+#vv10 {
+  background: url(../img/v_10.png) no-repeat;
+}
+
+#vv11 {
+  background: url(../img/v_11.png) no-repeat;
+}
+
+#vv12 {
+  background: url(../img/v_12.png) no-repeat;
+}
+
+#vv1:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv2:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv3:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv4:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv5:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv6:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv7:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv8:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv9:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv10:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv11:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+#vv12:hover {
+  background: #fff;
+  color: red;
+  transition: 1s;
+}
+
+article h4{
+  background: #000066;
+  color: #fff;
+  cursor: move;
+}
+
+.green {
+  border: 1px solid green;
+  box-shadow: 0 0 20px green;
+}
+
+.red {
+  border: 1px solid red
+  box-shadow: 0 0 20px red;
+}
+
+.article h4 {
+  cursor: none;
+}
+
+
+.b  {
+
+cursor: move;
+}
+
+
+
+ b {
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  font-size: 30px;
+}
